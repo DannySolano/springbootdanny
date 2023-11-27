@@ -1,0 +1,14 @@
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/controller/ProductoController.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/model/HistoricoBodega.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/model/Producto.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/utils/Movimiento.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/controller/HistoricoBodegaController.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/service/HistoricoBodegaService.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/controller/EstadoController.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/service/ProductoService.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/respository/HistoricoBodegaRepository.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/service/EstadoService.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/respository/EstadoRepository.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/respository/ProductoRepository.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/ProductoApiApplication.java
+/Users/dannysolano/Documents/UNIVERSIDAD/spring/productoAPI/src/main/java/com/producto/model/Estado.java

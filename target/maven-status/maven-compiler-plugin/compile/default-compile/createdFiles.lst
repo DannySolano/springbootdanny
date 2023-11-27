@@ -1,0 +1,15 @@
+com/producto/respository/EstadoRepository.class
+com/producto/model/HistoricoBodega.class
+com/producto/controller/ProductoController.class
+com/producto/service/HistoricoBodegaService.class
+com/producto/respository/ProductoRepository.class
+com/producto/ProductoApiApplication$1.class
+com/producto/model/Producto.class
+com/producto/utils/Movimiento.class
+com/producto/ProductoApiApplication.class
+com/producto/controller/HistoricoBodegaController.class
+com/producto/respository/HistoricoBodegaRepository.class
+com/producto/service/ProductoService.class
+com/producto/controller/EstadoController.class
+com/producto/model/Estado.class
+com/producto/service/EstadoService.class
