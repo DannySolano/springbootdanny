@@ -1,15 +1,20 @@
-FROM ubuntu:latest AS build
+# AS <NAME> to name this stage as maven
+FROM maven:3.6.3 AS maven
+LABEL MAINTAINER="sgwebfreelancer@gmail.com"
 
-RUN apt-get update
-RUN apt-get install openjdk-17-jdk -y
-COPY . .
+WORKDIR /usr/src/app
+COPY . /usr/src/app
+# Compile and package the application to an executable JAR
+RUN mvn package 
 
-RUN ./gradlew bootJar --no-daemon
+# For Java 11, 
+FROM adoptopenjdk/openjdk11:alpine-jre
 
-FROM openjdk:17-jdk-slim
+ARG JAR_FILE=spring-boot-api-tutorial.jar
 
-EXPOSE 8080
+WORKDIR /opt/app
 
-COPY --from=build /build/libs/demo-1.jar app.jar
+# Copy the spring-boot-api-tutorial.jar from the maven stage to the /opt/app directory of the current stage.
+COPY --from=maven /usr/src/app/target/${JAR_FILE} /opt/app/
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java","-jar","spring-boot-api-tutorial.jar"]
